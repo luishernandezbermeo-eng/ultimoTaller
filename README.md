@@ -34,13 +34,19 @@ Después de clonar el repositorio, completa esta sección durante la primera mis
 ### Crear el entorno virtual
 
 ```bash
-python3 -m venv .venv
+python -m venv .venv
 ```
 
 ### Activar el entorno virtual en Windows
 
 ```bash
 .venv\Scripts\activate
+```
+
+### Instalar dependencias
+
+```bash
+pip install -r requirements.txt
 ```
 
 ### Instalar dependencias
