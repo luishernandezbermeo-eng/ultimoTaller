@@ -31,6 +31,42 @@ git status
 
 Después de clonar el repositorio, completa esta sección durante la primera misión con los comandos para crear, activar y preparar el entorno virtual.
 
+### Crear el entorno virtual
+
+```bash
+python3 -m venv .venv
+```
+
+### Activar el entorno virtual en Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+### Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### Crear el entorno virtual
+
+```bash
+python3 -m venv .venv
+```
+
+### Activar el entorno virtual en Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+### Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Estructura esperada
 
 Durante la práctica crearás esta estructura:
